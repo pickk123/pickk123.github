@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <div class="box">
+    <div class="box" id="two">
         <section class="slide-prev">前一张</section>
         <section class="slide-next">下一张</section>
 
@@ -23,7 +23,7 @@
             <li><img src="images/7.jpg" alt="轮播图"></li>
         </ul>
     </div>
-    <div class="box cc">
+    <div class="box one">
             <section class="slide-prev">前一张</section>
             <section class="slide-next">下一张</section>
     
@@ -42,8 +42,12 @@
     <script>
         // 将$禁用
         // jQuery.noConflict();
-        $(".box").ZYSlide({speed:2000});
-        // $(".cc").ZYSlide();
+        // $(".box").ZYSlide({speed:2000}).css('background-color','#71ACEF');
+        // $(".2").ZYSlide();
+
+        // 两个不同的轮播
+        $('.one').ZYSlide({delay:2000,speed:3000}).css('background-color','#71ACEF')
+        $('#two').ZYSlide({speed:1000}).css('background-color','#FFFF00')
     </script>
 </body>
 </html>

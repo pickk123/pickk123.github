@@ -1,0 +1,23 @@
+commit 0967de383ee066c35baf08452ff330c3e8fc9b85 (HEAD -> master)
+Author: pickk123 <2740295603@qq.com>
+Date:   Thu Aug 23 10:53:28 2018 +0800
+
+    闭包的注意事项
+
+commit 600325307be2dd27fad14c8bc4b852f89c51799b
+Author: pickk123 <2740295603@qq.com>
+Date:   Thu Aug 23 10:38:18 2018 +0800
+
+    封装插件的注意事项
+
+commit d36c80ed671ce9c42593e590720446afefb39822 (origin/master)
+Author: pickk123 <2740295603@qq.com>
+Date:   Thu Aug 23 09:48:28 2018 +0800
+
+    轮播图完成版创建完成
+
+commit dc3b8f35c0e2d3813e52560f3888e1f746948708
+Author: pickk123 <2740295603@qq.com>
+Date:   Wed Aug 22 17:01:07 2018 +0800
+
+    这是初始框架的搭建

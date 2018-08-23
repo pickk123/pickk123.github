@@ -9,9 +9,9 @@
 
 </head>
 <body>
-    <div id="box">
-        <section class="prev">前一张</section>
-        <section class="next">下一张</section>
+    <div class="box">
+        <section class="slide-prev">前一张</section>
+        <section class="slide-next">下一张</section>
 
         <ul>
             <li><img src="images/1.jpg" alt="轮播图"></li>
@@ -23,10 +23,27 @@
             <li><img src="images/7.jpg" alt="轮播图"></li>
         </ul>
     </div>
+    <div class="box cc">
+            <section class="slide-prev">前一张</section>
+            <section class="slide-next">下一张</section>
+    
+            <ul>
+                <li><img src="images/1.jpg" alt="轮播图"></li>
+                <li><img src="images/2.jpg" alt="轮播图"></li>
+                <li><img src="images/3.jpg" alt="轮播图"></li>
+                <li><img src="images/4.jpg" alt="轮播图"></li>
+                <li><img src="images/5.jpg" alt="轮播图"></li>
+                <li><img src="images/6.jpg" alt="轮播图"></li>
+                <li><img src="images/7.jpg" alt="轮播图"></li>
+            </ul>
+        </div>
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/JQuery.ZYSlide.js"></script>
     <script>
-        $("#box").ZySlide();
+        // 将$禁用
+        // jQuery.noConflict();
+        $(".box").ZYSlide({speed:2000});
+        // $(".cc").ZYSlide();
     </script>
 </body>
 </html>
